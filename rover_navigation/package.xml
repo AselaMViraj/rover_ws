@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rover_navigation</name>
+  <version>1.0.0</version>
+  <description>Navigation, SLAM, and exploration configuration for the rover robot</description>
+  <maintainer email="your_email@email.com">Rover Team</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>m-explore-ros2</exec_depend>
+  <exec_depend>rover_description</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

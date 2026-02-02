@@ -1,0 +1,12 @@
+explore_node:
+  ros__parameters:
+    use_sim_time: true
+    planner_frequency: 0.2
+    progress_timeout: 60.0
+    min_frontier_size: 0.05
+    visualize: true
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+    return_to_init: true
+    robot_base_frame: base_link
+    map_frame: map
